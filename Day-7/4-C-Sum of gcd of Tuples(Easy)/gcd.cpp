@@ -26,7 +26,7 @@ int main()
   {
    for(int k=1;k<=n;k++)
    {
-     sum+=gcd_3(i,j,k);
+    int  sum+=gcd_3(i,j,k);
    }
   }
  }

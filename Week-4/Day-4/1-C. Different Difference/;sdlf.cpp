@@ -13,7 +13,7 @@ int main()
  cin>>n;
  vector<int>v;
  if(n==3)
-  cout<<"-1";
+  cout<<"-1"<<endl;
  else
  {
   for(int i=0;i<n;i++)
@@ -26,19 +26,17 @@ int main()
  if(st%2==0)
  {
   for(auto u:v)cout<<u<<" ";
-
+ }
+ else if(n==5)
+ {
+  swap(v[0],v[k]);
+  for(auto u:v)cout<<u<<" ";
  }
  else
  {
-  for(int i=0;i<=k;i++)
-  {
-   swap(v[i],v[i+1]);
-   i++;
-  }
+  swap(v[k-1],v[k]);
   for(auto u:v)cout<<u<<" ";
-
  }
- cout<<endl;
 
 
 

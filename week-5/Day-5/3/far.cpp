@@ -8,20 +8,28 @@ cin>>t;
 while(t--){
  int n;
  cin>>n;
- vector<int>v(n);
- int x=0,y=0;
- for(int i=0;i<n;i++)
+ map<int,int>p;vector<int>v2;
+while(n--)
+{
+ int m;
+ cin>>m;
+ vector<int>v(m);
+ for(int i=0;i<m;i++)
  {
   cin>>v[i];
-  if(v[i]%2==0)
-   x++;
-  else
-   y++;
+  p[v[i]]++;
  }
- if(x%2==0&&y%2==0||x%2==1&&y%2==0&&y>0)
-  cout<<"YES"<<endl;
- else
-  cout<<"NO"<<endl;
+
+}
+while(i<p.size())
+{
+ for(int i=0;i<p.size();i++)
+ {
+  min
+ }
+}
+
+
 
 }
 

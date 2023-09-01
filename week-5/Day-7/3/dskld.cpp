@@ -5,19 +5,14 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+using ll = long long;
+using pii= pair<int,int>;
+
+const int N=200005;
+ll mod= 1e9+7;
 
 int main()
 {
-
- int t;
- cin>>t;
-
- while(t--)
- {
- long long  int n;
-  cin>>n;
-  cout<<n<<endl;
- }
 
     return 0;
 }
@@ -25,3 +20,4 @@ int main()
 
 
 ///  Alhamdulillah...
+

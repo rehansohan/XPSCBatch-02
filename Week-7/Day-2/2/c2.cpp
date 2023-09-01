@@ -3,8 +3,16 @@ using namespace std;
 
 int main() {
 	// your code goes here
-	int n;
-	cin>>n;
-	cout<<n*2<<endl;
+	int t;
+	cin>>t;
+	while(t--)
+	{
+	    float a,b;
+	    cin>>a>>b;
+	    float n=a/36;
+	    if(n<=b)cout<<"YES"<<endl;
+	    else
+	    cout<<"NO"<<endl;
+	}
 	return 0;
 }
